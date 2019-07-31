@@ -1,0 +1,91 @@
+.leafImage {
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-image: url("https://user-images.githubusercontent.com/46304321/61665418-78194400-acc4-11e9-94fb-00bd8bef685e.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+  
+@media screen and (max-width: 480px) {
+    .leafImage {
+    height: 8rem;  
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-image: url("https://user-images.githubusercontent.com/46304321/61665418-78194400-acc4-11e9-94fb-00bd8bef685e.jpeg");
+    }
+}  
+
+@media screen and (min-width: 700px) {
+    .leafImage {
+    height: 11rem;  
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    background-image: url("https://user-images.githubusercontent.com/46304321/61665418-78194400-acc4-11e9-94fb-00bd8bef685e.jpeg");
+    }
+}  
+
+h6 {
+    margin-top: 10rem;
+    margin-right: 7.5rem;
+    color:#b3cccc;
+    margin-bottom: 1rem;
+
+}
+
+@media screen and (max-width: 480px) {
+    h6 {
+        margin-top: 8rem;
+        margin-right: 5rem;
+    }
+}
+
+.homeMain {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.homeRow {
+    display: flex;
+}
+
+.homeRow {
+    display: flex;
+}
+ 
+@media screen and (min-width: 700px) {
+  .homeColumn {
+    flex: 20%;
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+    .homeRow {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    }
+}
+
+@media screen and (max-width: 700px) {
+.homeColumn {
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: left;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+}
+

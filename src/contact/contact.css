@@ -1,0 +1,125 @@
+.contactHeader {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  h3 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  h3 {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+}
+
+ul {
+  margin-bottom: 3rem;
+}
+
+.contacts > li {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 700px) {
+  .contacts > li {
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+  }
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-image: url("https://image.flaticon.com/icons/png/512/131/131155.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .email {
+  height: 3rem;  
+  text-align: center;
+  margin-bottom: .5rem;
+  margin-right: 2rem;
+  background-image: url("https://image.flaticon.com/icons/png/512/131/131155.png");
+  }
+}  
+
+.github {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .github {
+  height: 4rem;  
+  text-align: center;
+  margin-bottom: .5rem;
+  margin-right: 2rem;
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+  }
+}  
+
+.linkedin {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-image: url("https://image.flaticon.com/icons/svg/34/34227.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .linkedin {
+  height: 2rem;  
+  text-align: center;
+  margin-bottom: .5rem;
+  margin-right: 2rem;
+  background-image: url("https://image.flaticon.com/icons/svg/34/34227.svg");
+  }
+}  
+
+@media screen and (min-width: 700px) {
+  .contactColumn {
+    flex: 25%;
+    text-align: justify;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contactColumn {
+      width: 100%;
+      margin-left: 2rem;
+      margin-right: 2rem;
+  }
+}
+  

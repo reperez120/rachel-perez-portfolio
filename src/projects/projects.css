@@ -1,0 +1,176 @@
+.projectsMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  h3{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+  }
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.WriteNowImage {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-image: url("https://user-images.githubusercontent.com/46304321/62010166-b4322600-b156-11e9-90f3-18083e55e959.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .WriteNowImage {
+    height: 15rem;  
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    background-image: url("https://user-images.githubusercontent.com/46304321/62010166-b4322600-b156-11e9-90f3-18083e55e959.png");
+  }
+} 
+
+.HardDaysImage {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-image: url("https://user-images.githubusercontent.com/46304321/53762550-69a5c980-3e96-11e9-9ad6-d8aeccf45265.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.WhatllItBeImage {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-image: url("https://user-images.githubusercontent.com/46304321/61471579-82f57100-a972-11e9-8f63-2a434e969add.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .HWhatllItBeImage {
+  height: 8rem;  
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  background-image: url("https://user-images.githubusercontent.com/46304321/61471579-82f57100-a972-11e9-8f63-2a434e969add.png");
+  }
+} 
+
+.CatALogImage {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-image: url("https://user-images.githubusercontent.com/46304321/61747207-e1648a00-ad8c-11e9-9e9d-edcaa4db2b4d.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .CatALogImage {
+  height: 16rem;  
+  text-align: center;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  background-image: url("https://user-images.githubusercontent.com/46304321/61747207-e1648a00-ad8c-11e9-9e9d-edcaa4db2b4d.png");
+  }
+}  
+
+.projectsMain {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+@media screen and (max-width: 700px) {
+  .projectsMain {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.projectsRow {
+  display: flex;
+}
+
+@media screen and (min-width: 699px) {
+  .projectsColumnLeft {
+    flex: 50%;
+    text-align: justify;
+    margin-left: 5rem;
+    margin-right: 0rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+}
+  
+@media screen and (max-width: 870px) {
+  .projectsColumnLeft {
+    width: 100%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (min-width: 869px) {
+  .projectsColumnRight {
+    flex: 50%;
+    text-align: justify;
+    margin-left: 0rem;
+    margin-right: 5rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+}
+    
+@media screen and (max-width: 870px) {
+  .projectsColumnRight {
+    width: 100%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+    
+@media screen and (max-width: 869px) {
+    .projectsRow {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+

@@ -1,0 +1,177 @@
+title {
+    font-size: 0px;
+}
+
+* {
+    font-family: "Avenir Next",
+    sans-serif; 
+    color: rgb(77, 74, 74);
+    font-weight: normal;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; 
+}
+
+@media screen and (max-width: 480px) {
+  .hamburger {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    font-size: 3rem;
+  }
+} 
+
+@media screen and (min-width: 481px) {
+  .hamburger {
+    display: none;
+  }
+}  
+
+.menu {
+  display: none;
+}
+
+@media screen and (min-width: 481px) {
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.menu > li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#LeafImage {
+  height: 10rem;  
+  text-align: center;
+}
+
+#aboutMeImage {
+  height: 12rem;  
+  text-align: center
+}
+
+@media screen and (max-width: 480px) {
+  #LeafImage {
+    height: 8rem;  
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+  }
+}  
+
+
+@media screen and (min-width: 680px) {
+  p {
+    font-size: 1.1rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    margin-left:  3rem;
+    padding-right: 2rem; 
+    padding-left: 2rem;
+  } 
+}
+
+p {
+  font-size: 1.1rem;
+  text-align: left;
+  margin-top: .2rem;
+  margin-right: 1rem;
+  margin-left:  1rem;
+}
+
+.contacts {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.contacts > li {
+  margin-bottom: 50px; 
+  margin-top: 0rem;
+  margin-bottom: 1rem; 
+  }
+
+#email {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem; 
+}
+
+#linkedin {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+#github {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+address {
+  font-weight: normal;
+}
+
+
+#HardDaysImage {
+  height: 300px;
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 680px) {
+  #HardDaysImage {
+    height: 400px;
+  }
+}  
+
+h2 {
+  font-size: 25px; 
+}
+ 
+.link {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.link:hover {
+   color: black; 
+}
